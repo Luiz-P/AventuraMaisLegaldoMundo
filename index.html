@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Você está perdido em uma floresta.</p>
+            <button class="btn-proximo" data-proximo="1">Andar</button>
+            <button class="btn-proximo" data-proximo="2">Ficar parado</button>
+        </div>
+        <div class="passo" id="passo-1">
+		<img src="img/cenario-passo0.png" alt="">
+            <p>Você andou para uma direção aleatória.</p>
+            <button class="btn-proximo" data-proximo="1">Continuar andando</button>
+            <button class="btn-proximo" data-proximo="2">Ficar parado</button>
+        </div>
+        <div class="passo" id="passo-2">
+		<img src="img/cenario-passo0.png" alt="">
+            <p>Você está parado.</p>
+            <button class="btn-proximo" data-proximo="1">Andar</button>
+            <button class="btn-proximo" data-proximo="2">Continuar parado</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
